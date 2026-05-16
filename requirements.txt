@@ -1,0 +1,52 @@
+# AI Smart Course - Dependencies
+# Install: pip install -r requirements.txt
+
+# Core
+python-pptx
+pandas
+lxml
+
+# LangChain ecosystem
+langchain-core
+langchain-chroma
+langchain-ollama
+langchain-openai
+langchain-community
+
+# Vector store
+chromadb
+
+# LLM cloud (optional, set CHAT_PROVIDER=tongyi to use)
+dashscope
+
+# TTS
+edge-tts
+pyttsx3
+
+# ASR
+whisper
+speech-recognition
+pydub
+
+# Chat UI
+gradio
+
+# Formula recognition
+Pillow
+
+# Environment variables
+python-dotenv
+
+# API Server
+fastapi>=0.104.0
+uvicorn[standard]>=0.24.0
+python-multipart>=0.0.6
+
+# Database
+sqlalchemy>=2.0.0
+pymysql>=1.1.0  # MySQL driver
+psycopg2-binary>=2.9.0  # PostgreSQL driver (optional)
+
+# Authentication
+python-jose[cryptography]>=3.3.0  # JWT token
+passlib[bcrypt]>=1.7.4  # Password hashing
